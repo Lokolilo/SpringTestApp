@@ -20,7 +20,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     runtimeOnly 'org.postgresql:postgresql'
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+    //implementation 'org.springframework.data:spring-data-rest-hal-browser'
 }
+
 /*
 
 tasks.named('test') {
